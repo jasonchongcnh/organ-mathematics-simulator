@@ -16,26 +16,3 @@ y = L + L cos(theta)
 
 The yellow `S1` and red `S2` components are constrained to the tube's outer
 surface and update with the calculated geometry.
-
-## Local Development
-
-```bash
-npm ci
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000).
-
-## Quality Checks
-
-```bash
-npm run lint
-npm run typecheck
-npm run build
-```
-
-## GitHub Pages
-
-Pushes to `main` deploy automatically through
-`.github/workflows/deploy-pages.yml`. The workflow derives the repository base
-path and publishes the static `out` directory.
